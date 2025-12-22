@@ -84,25 +84,24 @@ namespace Invector.vCharacterController
         internal bool isSprinting { get; set; }
         public bool stopMove { get; protected set; }
 
-        internal float inputMagnitude;                      // sets the inputMagnitude to update the animations in the animator controller
-        internal float verticalSpeed;                       // set the verticalSpeed based on the verticalInput
-        internal float horizontalSpeed;                     // set the horizontalSpeed based on the horizontalInput       
-        internal float moveSpeed;                           // set the current moveSpeed for the MoveCharacter method
-        internal float verticalVelocity;                    // set the vertical velocity of the rigidbody
-        internal float colliderRadius, colliderHeight;      // storage capsule collider extra information        
-        internal float heightReached;                       // max height that character reached in air;
-        internal float jumpCounter;                         // used to count the routine to reset the jump
-        internal float groundDistance;                      // used to know the distance from the ground
-        internal RaycastHit groundHit;                      // raycast to hit the ground 
-        internal bool lockMovement = false;                 // lock the movement of the controller (not the animation)
-        internal bool lockRotation = false;                 // lock the rotation of the controller (not the animation)        
-        internal bool _isStrafing;                          // internally used to set the strafe movement                
-        internal Transform rotateTarget;                    // used as a generic reference for the camera.transform
-        internal Vector3 input;                             // generate raw input for the controller
-        internal Vector3 colliderCenter;                    // storage the center of the capsule collider info                
-        internal Vector3 inputSmooth;                       // generate smooth input based on the inputSmooth value       
-        internal Vector3 moveDirection;                     // used to know the direction you're moving 
-
+        internal float inputMagnitude;
+        internal float verticalSpeed;
+        internal float horizontalSpeed;
+        internal float moveSpeed;
+        internal float verticalVelocity;
+        internal float colliderRadius, colliderHeight;
+        internal float heightReached;
+        internal float jumpCounter;
+        internal float groundDistance;
+        internal RaycastHit groundHit;
+        internal bool lockMovement = false;
+        internal bool lockRotation = false;
+        internal bool _isStrafing;
+        internal Transform rotateTarget;
+        internal Vector3 input;
+        internal Vector3 colliderCenter;
+        internal Vector3 inputSmooth;
+        internal Vector3 moveDirection;
         #endregion
 
         public void Init()
