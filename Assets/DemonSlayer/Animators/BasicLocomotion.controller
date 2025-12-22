@@ -482,13 +482,13 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: InputMag
     m_Mirror: 0
-  m_BlendParameter: InputMagnitude
-  m_BlendParameterY: InputMag
+  m_BlendParameter: InputHorizontal
+  m_BlendParameterY: InputVertical
   m_MinThreshold: 0
   m_MaxThreshold: 1.5
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
-  m_BlendType: 0
+  m_BlendType: 3
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
