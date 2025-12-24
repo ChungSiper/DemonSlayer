@@ -19554,16 +19554,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54e1d01a04c1a764ab43ac86e91458cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cThirdPersionInput
-  horizontalInput: Horizontal
-  verticalInput: Vertical
-  JumpInput: 32
-  strafeInput: 9
-  sptintInput: 304
-  rotateCameraXInput: Mouse X
-  rotateCameraYInput: Mouse Y
-  cc: {fileID: 0}
-  tpCamera: {fileID: 0}
-  cameraMain: {fileID: 0}
+  horizontal: 0
+  vertical: 0
+  magnitude: 0
 --- !u!114 &878548855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19576,14 +19569,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab381f3f9e956ef41ae89aaa3166d894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cThirdPersonController
-  useRootMotion: 0
-  locomotionType: 0
-  rotateByWorld: 0
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  groundMinDistance: 0.2
-  groundMaxDistance: 0.5
+--- !u!114 &878548857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878548850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbae7751aee38304d8892808b70886a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cThirdPersonMotor
+  moveSpeed: 5
 --- !u!1 &887320765
 GameObject:
   m_ObjectHideFlags: 0
@@ -30300,6 +30298,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6db97a1b0cbb59d45859bf3853f555c8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 878548853}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6db97a1b0cbb59d45859bf3853f555c8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 878548857}
   m_SourcePrefab: {fileID: 100100000, guid: 6db97a1b0cbb59d45859bf3853f555c8, type: 3}
 --- !u!1 &1392376815
 GameObject:
