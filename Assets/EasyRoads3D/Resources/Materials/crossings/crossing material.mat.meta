@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3c555588afad81d428ad1704d5d015a7
+AssetOrigin:
+  serializedVersion: 1
+  productId: 987
+  packageName: EasyRoads3D Free v3
+  packageVersion: v3.2.4f3
+  assetPath: Assets/EasyRoads3D/Resources/Materials/crossings/crossing material.mat
+  uploadId: 701396
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: '{"GUIDArray":["","","",""],"withUV":[false,false,false,false]}'
+  assetBundleName: 
+  assetBundleVariant: 
