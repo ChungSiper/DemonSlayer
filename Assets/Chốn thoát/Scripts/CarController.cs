@@ -1,9 +1,6 @@
-using System;
-using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-
 public class CarController : MonoBehaviour
 {
     [Header("Wheel Colliders")]
@@ -26,154 +23,146 @@ public class CarController : MonoBehaviour
     [Header("Drift")]
     public float driftStiffness = 0.5f;
     public float normalStiffness = 1.5f;
+    public float minDriftSpeed = 15f;
 
     [Header("Nitro")]
     public float nitroForce = 3000f;
     public float nitroDuration = 3f;
 
-    private float nitroTimer;
-    private bool usingNitro;
-
-
-    [Header("Extra")]
-    public float handBrakeForce = 5000f;
+    [Header("Hand Brake")]
+    public float MaxBarkeForce = 5000f;
+    public float frontBias = 0.7f;
+    public float absSlipLimit = 0.4f;
 
     private float horizontal;
     private float vertical;
-    private bool isDrifting;
     private bool isBraking;
-    private bool isHandBraking;
+    private bool isDrifting;
+    private bool usingNitro;
+    private float nitroTimer;
 
-    private Rigidbody rb;
+    Rigidbody rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-
-        // Hạ trọng tâm xe cho ổn định
         rb.centerOfMass = new Vector3(0, -0.5f, 0);
     }
 
     void Update()
     {
-        // Input
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
-        isBraking = Input.GetKey(KeyCode.Space);
-        isHandBraking = Input.GetKey(KeyCode.LeftShift);
-
-        if (Input.GetKeyDown(KeyCode.F))
+        float speed = rb.linearVelocity.magnitude * 3.6f;
+        if(Input.GetKeyDown(KeyCode.LeftShift))
         {
-            Debug.Log("isDrifting true!");
-            StartDrift();
+            isBraking = true;
+            HandleBrake(isBraking);
         }
-        if(Input.GetKeyUp(KeyCode.V))
+        // Drift (GIỮ SPACE)
+        if (Input.GetKey(KeyCode.Space) && speed > minDriftSpeed && Mathf.Abs(horizontal) > 0.1f)
         {
-            Debug.Log("isDrifting false!");
-            StopDrift();
-
+            if (!isDrifting) StartDrift();
         }
+        else
+        {
+            if (isDrifting) StopDrift();
+        }
+
+        // Nitro
         if (Input.GetKeyDown(KeyCode.LeftControl))
-        {
-            Debug.Log("Nitro Activated!");
-            ActiveNitro();
-        }
-
+            ActivateNitro();
     }
 
     void FixedUpdate()
     {
         HandleMotor();
         HandleSteering();
-        HandleBrake();
-        UpdateWheels();
+        
         HandleNitro();
+        UpdateWheels();
     }
 
     void HandleMotor()
     {
-        wheelFL.steerAngle = vertical * maxSteerAngle;
-        wheelFR.steerAngle = vertical * maxSteerAngle;
-
         wheelRL.motorTorque = vertical * motorForce;
         wheelRR.motorTorque = vertical * motorForce;
-
-        if(horizontal == 0)
-        {
-            wheelRL.brakeTorque = brakeForce;
-            wheelRR.brakeTorque = brakeForce;
-        }
-        else
-        {
-            wheelRL.brakeTorque = 0;
-            wheelRR.brakeTorque = 0;
-        }
-    }
-    void StartDrift()
-    {
-        isDrifting = true;
-        SetWheelStiffness(normalStiffness);
-
-    }
-    void StopDrift()
-    {
-        isDrifting = false;
-        SetWheelStiffness(driftStiffness);
-    }
-
-    void SetWheelStiffness(float value)
-    {
-        WheelFrictionCurve f = wheelFL.sidewaysFriction;
-        f.stiffness = value;
-
-        wheelFL.sidewaysFriction = f;
-        wheelFR.sidewaysFriction = f;
-    }
-    void ActiveNitro()
-    {
-        if (!usingNitro) return;
-        {
-            usingNitro = true;
-            nitroTimer = nitroDuration;
-        }
-    }
-    void HandleNitro()
-    {
-        if (!usingNitro) return;
-        rb.AddForce(transform.forward * nitroForce);
-        nitroTimer -= Time.fixedDeltaTime;
-
-        if (nitroTimer <= 0f)
-        {
-            usingNitro = false;
-        }
     }
 
     void HandleSteering()
     {
-        float steer = maxSteerAngle * horizontal;
+        float steer = horizontal * maxSteerAngle;
         wheelFL.steerAngle = steer;
         wheelFR.steerAngle = steer;
     }
 
-    void HandleBrake()
+    void HandleBrake(bool isBraking)
     {
-        float brake = isBraking ? brakeForce : 0f;
-
-        wheelFL.brakeTorque = brake;
-        wheelFR.brakeTorque = brake;
-        wheelRL.brakeTorque = brake;
-        wheelRR.brakeTorque = brake;
-
-        // Phanh tay – khóa bánh sau
-        if (isHandBraking)
+        if (!isBraking)
         {
-            wheelRL.brakeTorque = handBrakeForce;
-            wheelRR.brakeTorque = handBrakeForce;
+            wheelFL.brakeTorque = wheelFR.brakeTorque = 0f;
+            wheelRL.brakeTorque = wheelRR.brakeTorque = 0f;
+            return;
         }
+        float speedFactor = Mathf.Clamp01(rb.linearVelocity.magnitude / 30f);
+        float brake = brakeForce * speedFactor;
+        WheelHit hit;
+        if (wheelFL.GetGroundHit(out hit))
+        {
+            if (Mathf.Abs(hit.forwardSlip) > absSlipLimit)
+                brake *= 0.6f;
+        }
+
+        wheelFL.brakeTorque = brake * frontBias;
+        wheelFR.brakeTorque = brake * frontBias;
+        wheelRL.brakeTorque = brake * (1f - frontBias);
+        wheelRR.brakeTorque = brake * (1f - frontBias);
     }
 
+    // ===== DRIFT =====
+    void StartDrift()
+    {
+        isDrifting = true;
+        SetRearWheelStiffness(driftStiffness);
+    }
+
+    void StopDrift()
+    {
+        isDrifting = false;
+        SetRearWheelStiffness(normalStiffness);
+    }
+
+    void SetRearWheelStiffness(float value)
+    {
+        WheelFrictionCurve f = wheelRL.sidewaysFriction;
+        f.stiffness = value;
+
+        wheelRL.sidewaysFriction = f;
+        wheelRR.sidewaysFriction = f;
+    }
+
+    // ===== NITRO =====
+    void ActivateNitro()
+    {
+        if (usingNitro) return;
+
+        usingNitro = true;
+        nitroTimer = nitroDuration;
+    }
+
+    void HandleNitro()
+    {
+        if (!usingNitro) return;
+
+        rb.AddForce(transform.forward * nitroForce, ForceMode.Acceleration);
+        nitroTimer -= Time.fixedDeltaTime;
+
+        if (nitroTimer <= 0f)
+            usingNitro = false;
+    }
+
+    // ===== WHEELS =====
     void UpdateWheels()
     {
         UpdateWheelPose(wheelFL, meshFL);
@@ -182,12 +171,11 @@ public class CarController : MonoBehaviour
         UpdateWheelPose(wheelRR, meshRR);
     }
 
-    void UpdateWheelPose(WheelCollider collider, Transform mesh)
+    void UpdateWheelPose(WheelCollider col, Transform mesh)
     {
         Vector3 pos;
         Quaternion rot;
-        collider.GetWorldPose(out pos, out rot);
-
+        col.GetWorldPose(out pos, out rot);
         mesh.position = pos;
         mesh.rotation = rot;
     }
