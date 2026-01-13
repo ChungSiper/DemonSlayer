@@ -47399,7 +47399,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1006546907}
   m_HandleRect: {fileID: 1006546906}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -50742,7 +50742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Database: {fileID: 11400000, guid: 294a0f3c3623873439762c5f55d6af2a, type: 2}
-  dontDestroyOnLoad: 1
+  dontDestroyOnLoad: 0
 --- !u!4 &868999087
 Transform:
   m_ObjectHideFlags: 0
@@ -134235,7 +134235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2217017165105714522, guid: 7711700c499322241ad0a6161fccb38f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -27.777777
+      value: -28.008299
       objectReference: {fileID: 0}
     - target: {fileID: 2452283189092255581, guid: 7711700c499322241ad0a6161fccb38f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -134259,7 +134259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2452283189092255581, guid: 7711700c499322241ad0a6161fccb38f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -72.56778
+      value: -72.7983
       objectReference: {fileID: 0}
     - target: {fileID: 3227985642732245333, guid: 7711700c499322241ad0a6161fccb38f, type: 3}
       propertyPath: m_SizeDelta.y

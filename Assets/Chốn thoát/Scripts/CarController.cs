@@ -55,11 +55,11 @@ public class CarController : MonoBehaviour
         vertical = Input.GetAxis("Vertical");
 
         float speed = rb.linearVelocity.magnitude * 3.6f;
-        if(Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            isBraking = true;
-            HandleBrake(isBraking);
-        }
+        // if(Input.GetKeyDown(KeyCode.LeftShift))
+        // {
+        //     isBraking = true;
+        //     HandleBrake(isBraking);
+        // }
         // Drift (GIỮ SPACE)
         if (Input.GetKey(KeyCode.Space) && speed > minDriftSpeed && Mathf.Abs(horizontal) > 0.1f)
         {
@@ -79,7 +79,7 @@ public class CarController : MonoBehaviour
     {
         HandleMotor();
         HandleSteering();
-        
+        HandleBrake(isBraking);
         HandleNitro();
         UpdateWheels();
     }
@@ -99,25 +99,31 @@ public class CarController : MonoBehaviour
 
     void HandleBrake(bool isBraking)
     {
-        if (!isBraking)
-        {
-            wheelFL.brakeTorque = wheelFR.brakeTorque = 0f;
-            wheelRL.brakeTorque = wheelRR.brakeTorque = 0f;
-            return;
-        }
-        float speedFactor = Mathf.Clamp01(rb.linearVelocity.magnitude / 30f);
-        float brake = brakeForce * speedFactor;
-        WheelHit hit;
-        if (wheelFL.GetGroundHit(out hit))
-        {
-            if (Mathf.Abs(hit.forwardSlip) > absSlipLimit)
-                brake *= 0.6f;
-        }
+        bool handBrake = Input.GetKey(KeyCode.LeftShift);
 
-        wheelFL.brakeTorque = brake * frontBias;
-        wheelFR.brakeTorque = brake * frontBias;
-        wheelRL.brakeTorque = brake * (1f - frontBias);
-        wheelRR.brakeTorque = brake * (1f - frontBias);
+        float brake = handBrake ? MaxBarkeForce : 0f;
+
+        wheelRL.brakeTorque = brake;
+        wheelRR.brakeTorque = brake;
+        // if (!isBraking)
+        // {
+        //     wheelFL.brakeTorque = wheelFR.brakeTorque = 0f;
+        //     wheelRL.brakeTorque = wheelRR.brakeTorque = 0f;
+        //     return;
+        // }
+        // float speedFactor = Mathf.Clamp01(rb.linearVelocity.magnitude / 30f);
+        // float brake = brakeForce * speedFactor;
+        // WheelHit hit;
+        // if (wheelFL.GetGroundHit(out hit))
+        // {
+        //     if (Mathf.Abs(hit.forwardSlip) > absSlipLimit)
+        //         brake *= 0.6f;
+        // }
+
+        // wheelFL.brakeTorque = brake * frontBias;
+        // wheelFR.brakeTorque = brake * frontBias;
+        // wheelRL.brakeTorque = brake * (1f - frontBias);
+        // wheelRR.brakeTorque = brake * (1f - frontBias);
     }
 
     // ===== DRIFT =====
