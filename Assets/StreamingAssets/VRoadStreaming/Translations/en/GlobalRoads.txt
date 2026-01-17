@@ -1,0 +1,7 @@
+
+# This file contains key=value pairs for visible strings
+# To support other languages, create a file of the same name in the appropriate subdirectory
+# For example fr/GlobalRoads.txt
+
+MenuResume="Resume"
+MenuExit="Exit"

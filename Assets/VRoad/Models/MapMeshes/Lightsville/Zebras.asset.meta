@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aa1983ba9b538994596fa60725dcf643
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/Zebras.asset
+  uploadId: 633356

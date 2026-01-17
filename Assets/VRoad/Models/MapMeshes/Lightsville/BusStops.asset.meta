@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 69d3474a826d9d946bf5a26a7654af7c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/BusStops.asset
+  uploadId: 633356

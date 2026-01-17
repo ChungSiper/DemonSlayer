@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9751bb4ea69be3746bc0d980f107e33d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Prefabs/Vehicles/HgvTrailer_LP_525.prefab
+  uploadId: 633356

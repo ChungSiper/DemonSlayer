@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 20ff1543511a2234cb57aab2d234a079
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Prefabs/VRoadPedArmature.prefab
+  uploadId: 633356

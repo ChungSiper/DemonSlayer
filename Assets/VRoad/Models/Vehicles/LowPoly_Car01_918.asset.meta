@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4140337a2a8a58f4bbf82e4238db94db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/Vehicles/LowPoly_Car01_918.asset
+  uploadId: 633356

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 7b51ce3c8cd94005aafbb296db3260a5
+timeCreated: 1699550789
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/Editor/SceneSaveMonitor.cs
+  uploadId: 633356

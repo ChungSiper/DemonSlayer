@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d28fbf700a134344a76b3c55742321eb
+timeCreated: 1642015762
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/ucm/UaMouse.cs
+  uploadId: 633356

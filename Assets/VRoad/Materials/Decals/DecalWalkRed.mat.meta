@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a83dab3bcefb7274fb0d16f8c448670f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/Decals/DecalWalkRed.mat
+  uploadId: 633356

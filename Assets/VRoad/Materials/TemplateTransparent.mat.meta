@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5a62b09c1e5358f498c9402cd1071eea
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/TemplateTransparent.mat
+  uploadId: 633356

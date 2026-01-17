@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 7c340246ba7d48e39a2026cc5b58f7b2
+timeCreated: 1645175531
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/ucm/XyzExtensions.cs
+  uploadId: 633356

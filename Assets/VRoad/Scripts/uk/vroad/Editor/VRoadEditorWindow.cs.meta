@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: c7ec8ba7039e4668a640dac88cd3e509
+timeCreated: 1656863073
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/Editor/VRoadEditorWindow.cs
+  uploadId: 633356

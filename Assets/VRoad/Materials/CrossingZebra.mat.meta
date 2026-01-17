@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb46ec810f75e1d4fb0633e01cd194c6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/CrossingZebra.mat
+  uploadId: 633356

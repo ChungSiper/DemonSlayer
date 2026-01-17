@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02bc51eff6dba9c48b63fc53f8485153
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/Lanes/MedianMarking.mat
+  uploadId: 633356

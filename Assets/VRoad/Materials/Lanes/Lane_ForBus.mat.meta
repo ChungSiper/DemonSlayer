@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49906439458e3094185ed2ac10d42e2c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/Lanes/Lane_ForBus.mat
+  uploadId: 633356

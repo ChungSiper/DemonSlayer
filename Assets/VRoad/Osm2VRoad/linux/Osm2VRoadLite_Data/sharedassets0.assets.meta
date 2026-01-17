@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1e46c044911bd2147a2ffacab189e03b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Osm2VRoad/linux/Osm2VRoadLite_Data/sharedassets0.assets
+  uploadId: 633356

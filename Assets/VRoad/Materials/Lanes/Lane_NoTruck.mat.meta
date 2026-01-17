@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba8d9fe4570695a4ebc17e087a0a343f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/Lanes/Lane_NoTruck.mat
+  uploadId: 633356

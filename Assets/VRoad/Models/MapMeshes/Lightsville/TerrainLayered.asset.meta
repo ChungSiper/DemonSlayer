@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c73d07fedcff532468f84f2c4aaaf250
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 15600000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/TerrainLayered.asset
+  uploadId: 633356

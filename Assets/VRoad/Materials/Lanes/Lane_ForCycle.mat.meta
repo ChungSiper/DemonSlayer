@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ae5035fbe4fe8ca45ae838886b2e97ca
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/Lanes/Lane_ForCycle.mat
+  uploadId: 633356

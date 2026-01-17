@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ae6c63fddab39a4485eea5f8b28949e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/Aerial_Lightsville_Cropped_tex.asset
+  uploadId: 633356

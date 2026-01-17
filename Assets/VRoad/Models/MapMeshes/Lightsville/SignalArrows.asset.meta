@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 03167a3aaa9263b459677ef92f312fc1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/SignalArrows.asset
+  uploadId: 633356

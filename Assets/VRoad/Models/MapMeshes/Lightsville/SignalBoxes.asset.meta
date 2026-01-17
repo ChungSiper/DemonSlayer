@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3a7e94fa5507d41458c5d8ee084b20fc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/SignalBoxes.asset
+  uploadId: 633356

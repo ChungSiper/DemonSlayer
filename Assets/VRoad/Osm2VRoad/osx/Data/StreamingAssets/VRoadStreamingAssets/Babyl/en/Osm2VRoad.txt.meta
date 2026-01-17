@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 301127882447be5459bf4810f50976fc
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Osm2VRoad/osx/Data/StreamingAssets/VRoadStreamingAssets/Babyl/en/Osm2VRoad.txt
+  uploadId: 633356

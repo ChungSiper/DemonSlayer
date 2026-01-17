@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 7a71d9c72def422488741f6c0d3eaab3
+timeCreated: 1647100345
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/ucm/TypeSpecBus.cs
+  uploadId: 633356

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 535a91c6b0a808e4e8de1c13c299ef2a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/Tunnels.asset
+  uploadId: 633356

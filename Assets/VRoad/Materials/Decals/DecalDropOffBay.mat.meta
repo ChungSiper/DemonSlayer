@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fbb48572550adc542b958883a8f22d54
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/Decals/DecalDropOffBay.mat
+  uploadId: 633356

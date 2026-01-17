@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 503ad27280a704c409f5c7c5ecc7b969
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/StreamingAssets/VRoadStreaming/Translations/en/GlobalRoads.txt
+  uploadId: 633356

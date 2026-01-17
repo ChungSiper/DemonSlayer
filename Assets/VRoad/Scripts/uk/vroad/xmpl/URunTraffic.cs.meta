@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: fa1a88b202724962806213ae5a982310
+timeCreated: 1649509781
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/xmpl/URunTraffic.cs
+  uploadId: 633356

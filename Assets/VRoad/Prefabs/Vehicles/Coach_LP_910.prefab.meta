@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1cb42668d6d57c54cbf2159e366c6fba
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Prefabs/Vehicles/Coach_LP_910.prefab
+  uploadId: 633356

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ce5d3cbf8e0a22940b1fdc108263383a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Osm2VRoad/x64/Osm2VRoadLite_Data/il2cpp_data/etc/mono/4.5/settings.map
+  uploadId: 633356

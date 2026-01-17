@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7e0c4cd4939d03a47af2ef0b1aec7400
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Prefabs/MenuButton.prefab
+  uploadId: 633356

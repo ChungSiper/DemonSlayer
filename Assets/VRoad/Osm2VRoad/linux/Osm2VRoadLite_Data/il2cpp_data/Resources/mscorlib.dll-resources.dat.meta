@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eb7db3cb5007e2a43a10cf3e43168a98
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Osm2VRoad/linux/Osm2VRoadLite_Data/il2cpp_data/Resources/mscorlib.dll-resources.dat
+  uploadId: 633356

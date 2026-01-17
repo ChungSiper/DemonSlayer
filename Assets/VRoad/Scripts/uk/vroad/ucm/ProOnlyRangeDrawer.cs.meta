@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 3b24e50738e9404cb8b3472c6052091f
+timeCreated: 1666948394
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/ucm/ProOnlyRangeDrawer.cs
+  uploadId: 633356

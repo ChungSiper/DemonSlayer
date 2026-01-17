@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d3b1e504da0589d47a7f67e3ee09f08a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/Vehicles/LowPoly_HgvCab_797.asset
+  uploadId: 633356

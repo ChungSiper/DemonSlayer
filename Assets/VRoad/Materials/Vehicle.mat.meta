@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e1bf45ecce602cc43ac7b2df11316671
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/Vehicle.mat
+  uploadId: 633356

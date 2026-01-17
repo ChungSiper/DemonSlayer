@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a4dd1721fbb1cb34ca3a0ee35e4ee0a0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/Footpaths.asset
+  uploadId: 633356

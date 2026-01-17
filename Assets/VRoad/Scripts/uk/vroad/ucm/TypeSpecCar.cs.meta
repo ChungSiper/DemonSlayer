@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 6e31eb89bb544a9985561c41601acbec
+timeCreated: 1647099950
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/ucm/TypeSpecCar.cs
+  uploadId: 633356

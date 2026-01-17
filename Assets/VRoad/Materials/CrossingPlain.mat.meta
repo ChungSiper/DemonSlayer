@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c0c940b63f440794c8bd62b4e971fb62
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/CrossingPlain.mat
+  uploadId: 633356

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1388d21ad4bb6e14ba307f7f8367a9d6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/Buildings/Building_Glass.mat
+  uploadId: 633356

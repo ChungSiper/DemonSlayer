@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f5f384afc593469d9fa5f2e71ff7e5b9
+timeCreated: 1642017150
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/ucm/UaCamControllerMain.cs
+  uploadId: 633356

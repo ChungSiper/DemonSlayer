@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 55a2ba4e8f02477b8337dc8cf275d193
+timeCreated: 1645782909
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/ucm/NamedSubMesh.cs
+  uploadId: 633356

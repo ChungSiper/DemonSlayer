@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ee0e93639b94e73418e2fd09e73c8b1d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/SignalYellow.mat
+  uploadId: 633356

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 14fef5c9845149b47b2d6f0ae3b0bf2a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/SignalRed.mat
+  uploadId: 633356

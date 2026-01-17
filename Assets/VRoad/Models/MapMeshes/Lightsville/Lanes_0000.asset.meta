@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66191317b5643b749a91eccb4ae97c60
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/Lanes_0000.asset
+  uploadId: 633356

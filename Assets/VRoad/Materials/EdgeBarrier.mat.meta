@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4da01fc0e39a4754d814a64cf8047453
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/EdgeBarrier.mat
+  uploadId: 633356

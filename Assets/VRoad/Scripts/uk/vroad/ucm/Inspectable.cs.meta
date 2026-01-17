@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 82426705555242079fa7a9aae73417f2
+timeCreated: 1664632869
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/ucm/Inspectable.cs
+  uploadId: 633356

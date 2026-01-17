@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc7fce154a9084a4883e4507b5dcf93b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/Aerial_Lightsville.mat
+  uploadId: 633356

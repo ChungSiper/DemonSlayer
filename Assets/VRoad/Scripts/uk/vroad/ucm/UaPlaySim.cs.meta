@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 73a1a1e970744a889953497ca19f95d0
+timeCreated: 1642170027
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/ucm/UaPlaySim.cs
+  uploadId: 633356

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55c34cdb546c54747a83eba1f34ed829
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/SolidBuildings.asset
+  uploadId: 633356

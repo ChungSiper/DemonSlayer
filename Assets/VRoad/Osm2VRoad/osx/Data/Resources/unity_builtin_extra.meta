@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fcc4ff68a08d0004db0b9f1573ae76d3
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Osm2VRoad/osx/Data/Resources/unity_builtin_extra
+  uploadId: 633356

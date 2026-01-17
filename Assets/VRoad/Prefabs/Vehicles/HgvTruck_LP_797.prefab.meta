@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1f09ac9f308b73943b886b9b499db4f6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Prefabs/Vehicles/HgvTruck_LP_797.prefab
+  uploadId: 633356

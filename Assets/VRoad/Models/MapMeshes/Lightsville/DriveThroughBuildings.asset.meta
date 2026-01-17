@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 649a740cd245b7f418edbc8bdb55ed10
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/DriveThroughBuildings.asset
+  uploadId: 633356

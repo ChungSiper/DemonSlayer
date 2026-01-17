@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dbb6fc773df3e0341b5e1a1eb213fe44
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/Lanes/Textures/LaneWith_RoadEdge_tex.asset
+  uploadId: 633356

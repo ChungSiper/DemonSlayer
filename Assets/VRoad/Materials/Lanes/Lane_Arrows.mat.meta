@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 87cb26d06c91ebc47962b716b3334ff2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Materials/Lanes/Lane_Arrows.mat
+  uploadId: 633356

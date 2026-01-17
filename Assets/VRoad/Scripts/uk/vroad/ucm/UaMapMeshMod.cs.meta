@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d51e6c642727419bb8f346ee2b3f829c
+timeCreated: 1677616639
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Scripts/uk/vroad/ucm/UaMapMeshMod.cs
+  uploadId: 633356

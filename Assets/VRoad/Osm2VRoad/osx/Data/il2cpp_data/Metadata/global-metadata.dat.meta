@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5f7290445107e0a459b02657760a88b5
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Osm2VRoad/osx/Data/il2cpp_data/Metadata/global-metadata.dat
+  uploadId: 633356

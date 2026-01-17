@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ef3f750c5b892549bec0d9649d3b683
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Models/MapMeshes/Lightsville/TurnArrows.asset
+  uploadId: 633356

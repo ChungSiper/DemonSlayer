@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1170137c25322284da0e5d63a84debb3
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218045
+  packageName: 'Global Roads & Traffic [Lite]'
+  packageVersion: 2.5.4
+  assetPath: Assets/VRoad/Osm2VRoad/x64/Osm2VRoadLite_Data/globalgamemanagers.assets
+  uploadId: 633356
